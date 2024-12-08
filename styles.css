@@ -1,0 +1,40 @@
+body,h1,h2,p,ul,li{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:Arial,sans-serif;
+  line-height:1.6;
+}
+header{
+  background-color: black;
+  color:white;
+  text-align:center;
+  padding:1rem;
+}
+main{
+  padding:2rem;
+}
+.profile{
+  display:flex;
+  align-items:center;
+}
+.photo{
+  flex:1;
+  padding:0 2rem;
+}
+.photo img{
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10 rgba(0,0,0,2);
+}
+.bio{
+  flex:2;
+}
+footer{
+  background-color: grey;
+  color:white;
+  text-align:center;
+  padding:1rem;
+}
